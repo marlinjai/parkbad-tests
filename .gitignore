@@ -1,0 +1,31 @@
+# .gitignore - Files to exclude from version control
+
+# Dependencies
+node_modules/
+
+# Playwright test results
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# Test output files
+test-results.json
+test-results.xml
+
+# Environment variables
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log* 

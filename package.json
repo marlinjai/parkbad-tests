@@ -1,0 +1,24 @@
+{
+  "name": "parkbad-tests",
+  "version": "1.0.0",
+  "description": "Playwright tests for contact form on NextJS project deployed on Vercel",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:install": "playwright install",
+    "record": "playwright codegen",
+    "record:site": "playwright codegen https://www.parkbad-gt.de"
+  },
+  "keywords": ["playwright", "e2e", "testing", "nextjs", "vercel"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
